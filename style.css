@@ -26,7 +26,7 @@
   font-style: italic;
   text-decoration: underline ;
   
-  color: rgb(122, 128, 131); 
+  color: rgb(195, 206, 211); 
   text-align: center;
   font-size:70px;
   z-index: +1;
@@ -52,7 +52,7 @@ video {
     display: block;
     margin: auto ;
     background-attachment: fixed;
-    position: relative; left: -145px
+    position: relative; left: -145px;
   }
 
   .container{
@@ -60,52 +60,86 @@ video {
     overflow:hidden;
     display:block;
     height: 440px;
-    
+    position: relative; top: 40px;
 }
   
-  
-  /* Facebook */
-  .fa-facebook {
-    color: white;
-    position: absolute;
-    left: 500px;
-    top: 220px;
-    z-index: +1;
-  }
-  .fa-github {
-    
-    color: white;
-    position: absolute;
-    left: 500px;
-    top: 320px;
-    z-index: +1;
-  }
-  .fa-instagram {
-    color: white;
-    position: absolute;
-    left: 500px;
-    top: 420px;
-    z-index: +1;
-  }
-  .fa-snapchat {
-    color: white;
-    position: absolute;
-    right: 500px;
-    top: 220px;
-    z-index: +1;
-  }
-  .fa-steam {
-    color: white;
-    position: absolute;
-    right: 500px;
-    top: 320px;
-    z-index: +1;
-  }
+a{
+  text-decoration: none !important;
+}
 
-  .fa-hackerrank {
-    color: white;
-    position: absolute;
-    right: 500px;
-    top: 420px;
-    z-index: +1;
-  }
+/* Facebook */
+.fa-facebook {
+  color: white;
+  position: absolute;
+  left: 500px;
+  top: 270px;
+  z-index: +1;
+  transition: all 0.5s ease ;
+  
+}
+
+.fa-github {
+  
+  color:  white;
+  position: absolute;
+  left: 500px;
+  top: 370px;
+  z-index: +1;
+  transition: all 0.5s ease ;
+}
+
+.fa-instagram {
+  color: white;
+  position: absolute;
+  left: 500px;
+  top: 470px;
+  z-index: +1;
+  transition: all 0.5s ease ;
+}
+
+.fa-snapchat {
+  
+  color:white;
+  position: absolute;
+  right: 500px;
+  top: 270px;
+  z-index: +1;
+  transition: all 0.5s ease ;
+}
+
+.fa-steam {
+  color: white;
+  position: absolute;
+  right: 500px;
+  top: 370px;
+  z-index: +1;
+  transition: all 0.5s ease ;
+}
+
+.fa-hackerrank {
+  color: white;
+  position: absolute;
+  right: 500px;
+  top: 470px;
+  z-index: +1;
+  transition: all 0.5s ease ;
+}
+
+.fa-facebook:hover {
+  color: rgb(59, 89, 152);
+}
+.fa-github:hover {
+  color: rgb(158, 163, 167);
+}
+.fa-instagram:hover {
+  color: rgb(195, 42, 163);
+}
+.fa-snapchat:hover {
+  color:yellow;
+}
+.fa-steam:hover {
+  color: rgb(42, 71, 94);
+}
+.fa-hackerrank:hover {
+  color: rgb(52, 168, 83);
+}
