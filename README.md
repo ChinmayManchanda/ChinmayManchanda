@@ -1,2 +1,2 @@
 # ChinmayManchanda
-MyProject
+Practice here
